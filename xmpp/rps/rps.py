@@ -36,9 +36,15 @@ class RPS(object):
             elif mv2[1] == 'scissors':
                 ret_val = 1
         elif mv1[1] == 'paper':
-            pass
+            if mv2[1] == 'rock':
+                ret_val = 1
+            elif mv2[1] == 'scissors':
+                ret_val = 2
         elif mv1[1] == 'scissors':
-            pass
+            if mv2[1] == 'paper':
+                ret_val = 1
+            elif mv2[1] == 'rock':
+                ret_val = 2
 
         return ret_val
         

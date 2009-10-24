@@ -4,7 +4,7 @@ from twisted.application import service
 from twisted.words.protocols.jabber import jid
 from wokkel.client import XMPPClient
 
-from rpsbot import RPSProtocol
+from rpsbotecho import RPSProtocol
 
 application = service.Application("rpsbot")
 

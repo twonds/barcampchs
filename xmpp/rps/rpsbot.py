@@ -100,6 +100,9 @@ class RPSProtocol(MessageProtocol):
         
         elif game_move == rps.DRAW:
             outcome_message = "You both played %s !" % (move,)
+            for p in self.rps.players:
+                if p != player:
+                    self.sendMessage(p, outcome_message)
             self.rps.restart()
         
         elif game_move == rps.PLAYER1:

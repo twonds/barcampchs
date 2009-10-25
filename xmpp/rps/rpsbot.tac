@@ -8,8 +8,8 @@ from rpsbot import RPSProtocol
 
 application = service.Application("rpsbot")
 
-#xmppclient = XMPPClient(jid.internJID("test@thetofu.com/echobot"), "test")
-xmppclient = XMPPClient(jid.internJID("test@localhost/echobot"), "test")
+xmppclient = XMPPClient(jid.internJID("test@thetofu.com/echobot"), "test")
+#xmppclient = XMPPClient(jid.internJID("test@localhost/echobot"), "test")
 xmppclient.logTraffic = True
 echobot = RPSProtocol()
 echobot.setHandlerParent(xmppclient)

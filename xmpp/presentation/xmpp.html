@@ -74,9 +74,16 @@
     <li>Extensible Messaging and Presence Protocol (XMPP)</li>
     <li>Jabber</li>
     <li>Connections</li>
-    <li>Presence </li>
-    <li>Message  </li>
-    <li>IQ  </li>
+    <li>Jabber Identifier - JID</li>
+    <li>Presence <br/> &lt;presence/&gt;</li>
+    <li>Message <br/>  &lt;message type=&quot;chat&quot;&gt;&lt;body&gt;hello&lt;/body&gt;&lt;/message&gt;</li>
+    <li>IQ  <br/>&lt;iq type=&quot;get&quot;
+    from=&quot;romeo@montague.net/orchard&quot;
+    to=&quot;plays.shakespeare.lit&quot;
+    id=&quot;info1&quot;&gt;
+  &lt;query xmlns=&quot;http://jabber.org/protocol/disco#info&quot;/&gt;
+&lt;/iq&gt;
+</li>
    </ul>
   </li>
 
@@ -135,7 +142,7 @@
 <h1>XMPP Examples</h1>
 <ul>
 <li>Collecta - http://collecta.com </li>
-<li>BarCampCHS Bot </li>
+<li><a href="http://speeqe.com/room/barcampchs@conference.butterfat.net/">BarCampCHS Bot</a></li>
 <li>Speeqe - http://speeqe.com</li>
 <li>Chesspark - http://chesspark.com </li>
 <li>Yammer - http://yammer.com </li>

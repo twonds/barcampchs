@@ -6,7 +6,7 @@ xmpp - an introduction to xmpp and a rock, paper, scissors example game.
 erlang - quick overview of erlang.
 
 
-NOTES:
+XMPP NOTES:
 
 Give more detail in the basics of XMPP. It was too quick/technical for an intro.
 
@@ -26,5 +26,7 @@ BOSH explanation needs more detail and description.
 Idea - Do presentation in XMPP and display it via XMPP client or WEB.
 
 
+ERLANG NOTES: 
 
+  Have an outline ready incase people aren't into hacking and need an introduction.
 
